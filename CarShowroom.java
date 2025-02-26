@@ -3,7 +3,7 @@ import java.io.*;
 import java.sql.*;
 import java.util.Scanner;
 
-public class CarShowroom extends 
+public class CarShowroom extends CarShowroomClient
  {
     static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
     static final String DB_URL = "jdbc:mysql://localhost:3306/CarShowroomManagement";
